@@ -1,0 +1,11 @@
+.venv/
+frontend/node_modules/
+backend/database/students.db
+backend/database/session.key
+backend/database/*.db-shm
+backend/database/*.db-wal
+dataset/student_performance.csv
+saved_models/*.joblib
+saved_models/model_metrics.json
+saved_models/accounts/
+backend/static/assets/

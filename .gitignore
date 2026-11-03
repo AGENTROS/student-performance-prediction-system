@@ -1,0 +1,44 @@
+# Python environments, bytecode, and test caches
+.venv/
+.venv-notebook/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local databases and student records
+*.db
+*.sqlite
+*.sqlite3
+*.db-shm
+*.db-wal
+student-performance-system/backend/database/
+student-performance-system/dataset/student_performance.csv
+
+# Generated model artifacts and account-specific models
+*.joblib
+student-performance-system/saved_models/
+saved_models/
+
+# Frontend dependencies and generated production bundle
+student-performance-system/frontend/node_modules/
+student-performance-system/frontend/dist/
+student-performance-system/backend/static/
+
+# Logs, OS files, and unrelated scratch files in the workspace root
+*.log
+Thumbs.db
+.DS_Store
+/Untitled.ipynb
+/package-lock.json
